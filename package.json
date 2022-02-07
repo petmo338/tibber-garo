@@ -1,0 +1,27 @@
+{
+  "name": "tibber-garo",
+  "version": "1.0.0",
+  "description": "Control garo car charger depending on electricity price",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petmo338/tibber-garo.git"
+  },
+  "keywords": [
+    "garo",
+    "tibber",
+    "price"
+  ],
+  "author": "Peter Möller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petmo338/tibber-garo/issues"
+  },
+  "homepage": "https://github.com/petmo338/tibber-garo#readme",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
