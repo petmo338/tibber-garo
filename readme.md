@@ -12,3 +12,8 @@ GARO_IP=ip_of_garo
 1 * * * *       cd $HOME && /usr/bin/node $HOME/tibber-garo/index.js
 ```
 This will run one minute past every hour, and check the current price against `PRICE_LIMIT`, if below, enable charging, else disable.
+
+## Todo
+Implement charge override.
+
+API for changing `PRICE_LIMIT`
