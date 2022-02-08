@@ -71,6 +71,6 @@ async function getCurrentPrice () {
       console.log(response.statusText)
     }
   } catch (e) {
-    // Deal with the fact the chain failed
+    console.log(e)
   }
 })()
