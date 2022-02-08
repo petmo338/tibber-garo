@@ -17,3 +17,6 @@ This will run one minute past every hour, and check the current price against `P
 Implement charge override.
 
 API for changing `PRICE_LIMIT`
+
+## Caveats
+Manual settings of **['Availablae for charging'|'Not available for charging'|'Schedule']** will be reset every time the program is run.
